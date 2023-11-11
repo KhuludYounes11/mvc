@@ -14,6 +14,8 @@ $db=new MysqliDb (
     $config['db_pass'],
     $config['db_name']
 );
+//..........................
+//'''''''''''''''''''''''''''
 $request=$_SERVER['REQUEST_URI'];
 var_dump($request);
 $model=new UserModel($db);
